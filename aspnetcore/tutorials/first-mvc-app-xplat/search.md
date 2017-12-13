@@ -26,7 +26,7 @@ Observação: o SQLlite diferencia maiúsculas de minúsculas e, portanto, você
 Altere a marcação `<form>` na exibição *Views\movie\Index.cshtml* do Razor para especificar `method="get"`:
 
 ```html
-<form asp-controller="Movies" asp-action="Index" method="get">
+<form asp-controller="Movie" asp-action="Index" method="get">
 ```
 
 [!INCLUDE[adding-model](../../includes/mvc-intro/search3.md)]
